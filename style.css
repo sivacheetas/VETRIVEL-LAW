@@ -2,7 +2,14 @@
 * {
   box-sizing: border-box;
 }
-
+body {
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  font-family: Arial, sans-serif;
+  color: #2c3e50;
+}
+h1 {
+  color: #0d6efd;
+}
 body {
   font-family: 'Roboto', 'Segoe UI', sans-serif;
   margin: 0;
