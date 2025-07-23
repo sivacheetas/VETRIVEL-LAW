@@ -2,109 +2,147 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>P.R.S. Vetrivel Law & Tax Associates</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header>
-    <h1>P.R.S. Vetrivel Law & Tax Associates</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <div class="container header-inner">
+      <h1>P.R.S. Vetrivel Law & Tax Associates</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <div class="hero">
     <div class="hero-text">
       <h2>Experienced Legal & Tax Advisory in Pennagaram</h2>
       <p>Delivering trusted legal services with integrity and efficiency for over 7 years. Personalized solutions in Civil, Family, Property, Criminal, Tax, and Corporate Law.</p>
-      <a class="btn" href="https://wa.me/9360606115">📞 Book Consultation on WhatsApp</a>
-      <a class="btn" href="https://maps.google.com/?q=91/2, Hogenakkal Road, Pennagaram">📍 Get Directions</a>
+      <a class="btn" href="https://wa.me/9360606115" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i> Book Consultation on WhatsApp
+      </a>
+      <a class="btn btn-secondary" href="https://maps.google.com/?q=91/2, Hogenakkal Road, Pennagaram" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-map-marker-alt"></i> Get Directions
+      </a>
     </div>
     <img src="lawyer-photo.jpg" alt="Lawyer Photo" />
   </div>
 
-  <section id="about">
-    <h3>About Us</h3>
-    <p>P.R.S. Vetrivel Law & Tax Associates is a full-service legal practice based in Pennagaram, Dharmapuri. With 7+ years of experience in handling civil, family, property, tax, and criminal law matters, we aim to provide timely and practical legal solutions with complete transparency and ethics.</p>
-  </section>
+  <main class="container">
+    <section id="about">
+      <h3>About Us</h3>
+      <p>
+        P.R.S. Vetrivel Law & Tax Associates is a full-service legal practice based in Pennagaram, Dharmapuri. With 7+ years of experience in handling civil, family, property, tax, and criminal law matters, we aim to provide timely and practical legal solutions with complete transparency and ethics.
+      </p>
+    </section>
 
-  <section id="services">
-    <h3>Our Services</h3>
-    <h4>⚖ Civil Law</h4>
-    <ul>
-      <li>Property Disputes (Title, Partition, Injunction)</li>
-      <li>Money Recovery & Specific Performance Suits</li>
-      <li>Defamation and Declaration Suits</li>
-    </ul>
+    <section id="services">
+      <h3>Our Services</h3>
 
-    <h4>👨‍👩‍👧‍👦 Family Law</h4>
-    <ul>
-      <li>Divorce & Mutual Consent</li>
-      <li>Child Custody & Visitation</li>
-      <li>Dowry Harassment, Domestic Violence Cases</li>
-    </ul>
+      <div class="service-card">
+        <h4>⚖ Civil Law</h4>
+        <ul>
+          <li>Property Disputes (Title, Partition, Injunction)</li>
+          <li>Money Recovery & Specific Performance Suits</li>
+          <li>Defamation and Declaration Suits</li>
+        </ul>
+      </div>
 
-    <h4>🏛 Criminal Law</h4>
-    <ul>
-      <li>Bail (Anticipatory & Regular)</li>
-      <li>Quashing of FIR</li>
-      <li>Cheque Bounce (Sec. 138 NI Act)</li>
-      <li>Cyber Crime & Fraud</li>
-    </ul>
+      <div class="service-card">
+        <h4>👨‍👩‍👧‍👦 Family Law</h4>
+        <ul>
+          <li>Divorce & Mutual Consent</li>
+          <li>Child Custody & Visitation</li>
+          <li>Dowry Harassment, Domestic Violence Cases</li>
+        </ul>
+      </div>
 
-    <h4>📜 Property & Real Estate</h4>
-    <ul>
-      <li>Sale/Gift/Lease Deed Drafting</li>
-      <li>Legal Opinion, Patta/Chitta, EC, Mutation</li>
-      <li>Landlord-Tenant Disputes</li>
-    </ul>
+      <div class="service-card">
+        <h4>🏛 Criminal Law</h4>
+        <ul>
+          <li>Bail (Anticipatory & Regular)</li>
+          <li>Quashing of FIR</li>
+          <li>Cheque Bounce (Sec. 138 NI Act)</li>
+          <li>Cyber Crime & Fraud</li>
+        </ul>
+      </div>
 
-    <h4>🏢 Corporate Law</h4>
-    <ul>
-      <li>MoUs, NDAs, Service Agreements</li>
-      <li>Partnerships & Incorporation</li>
-      <li>MSME Dispute Resolution</li>
-    </ul>
+      <div class="service-card">
+        <h4>📜 Property & Real Estate</h4>
+        <ul>
+          <li>Sale/Gift/Lease Deed Drafting</li>
+          <li>Legal Opinion, Patta/Chitta, EC, Mutation</li>
+          <li>Landlord-Tenant Disputes</li>
+        </ul>
+      </div>
 
-    <h4>🧾 Documentation</h4>
-    <ul>
-      <li>Will Drafting & Registration</li>
-      <li>Power of Attorney (POA/GPA)</li>
-      <li>Marriage & Trust Deeds, Stamp Duty</li>
-    </ul>
+      <div class="service-card">
+        <h4>🏢 Corporate Law</h4>
+        <ul>
+          <li>MoUs, NDAs, Service Agreements</li>
+          <li>Partnerships & Incorporation</li>
+          <li>MSME Dispute Resolution</li>
+        </ul>
+      </div>
 
-    <h4>📈 Tax Law</h4>
-    <ul>
-      <li>Income Tax & GST Disputes</li>
-      <li>Business Compliance & Filings</li>
-    </ul>
+      <div class="service-card">
+        <h4>🧾 Documentation</h4>
+        <ul>
+          <li>Will Drafting & Registration</li>
+          <li>Power of Attorney (POA/GPA)</li>
+          <li>Marriage & Trust Deeds, Stamp Duty</li>
+        </ul>
+      </div>
 
-    <h4>📁 Litigation</h4>
-    <ul>
-      <li>Representation before District & High Courts</li>
-      <li>Tribunals (DRT, CAT, RERA, NCLT, GST, IT)</li>
-      <li>Writ Petitions, PILs</li>
-    </ul>
-  </section>
+      <div class="service-card">
+        <h4>📈 Tax Law</h4>
+        <ul>
+          <li>Income Tax & GST Disputes</li>
+          <li>Business Compliance & Filings</li>
+        </ul>
+      </div>
 
-  <section id="contact">
-    <h3>Contact Us</h3>
-    <p class="contact-info">
-      📍 <strong>Office Address:</strong><br>
-      91/2, Hogenakkal Road,<br>
-      Pennagaram, Dharmapuri - 636810<br><br>
-      📞 <strong>WhatsApp:</strong> <a href="https://wa.me/9360606115">9360606115</a><br>
-      📍 <a href="https://maps.google.com/?q=91/2, Hogenakkal Road, Pennagaram">View on Google Maps</a>
-    </p>
-  </section>
+      <div class="service-card">
+        <h4>📁 Litigation</h4>
+        <ul>
+          <li>Representation before District & High Courts</li>
+          <li>Tribunals (DRT, CAT, RERA, NCLT, GST, IT)</li>
+          <li>Writ Petitions, PILs</li>
+        </ul>
+      </div>
+    </section>
 
-  <div class="footer">
-    &copy; 2025 P.R.S. Vetrivel Law & Tax Associates. All Rights Reserved. | Website by You
-  </div>
+    <section id="contact">
+      <h3>Contact Us</h3>
+      <p class="contact-info">
+        <i class="fas fa-map-marker-alt"></i> <strong>Office Address:</strong><br>
+        91/2, Hogenakkal Road,<br />
+        Pennagaram, Dharmapuri - 636810<br /><br />
+        <i class="fab fa-whatsapp"></i> <strong>WhatsApp:</strong> 
+        <a href="https://wa.me/9360606115" target="_blank" rel="noopener noreferrer">9360606115</a><br />
+        <i class="fas fa-map"></i> 
+        <a href="https://maps.google.com/?q=91/2, Hogenakkal Road, Pennagaram" target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; 2025 P.R.S. Vetrivel Law & Tax Associates. All Rights Reserved. | Website by You
+    </div>
+  </footer>
 
 </body>
 </html>
